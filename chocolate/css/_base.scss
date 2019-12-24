@@ -1,0 +1,56 @@
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.667;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+a {
+  color: #b57153;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+
+  @media (max-width: 767px) {
+    font-size: 13px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #572d1c;
+  line-height: 1.1;
+}

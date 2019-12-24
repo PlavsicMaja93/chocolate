@@ -1,0 +1,35 @@
+// Buttons classes
+.button {
+  display: inline-block;
+  border: 1px solid #411f19;
+  border-radius: 30px;
+  font-weight: 500;
+  padding: 12px 50px;
+  background: #411f19;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #fff;
+  transition: all .4s ease;
+
+  @media (max-width: 767px) {
+    padding: 8px 25px !important;
+  }
+
+  &:hover {
+    border-color: #411f19;
+    background: 0 0;
+    color: #222;
+  }
+}
+
+.button-header {
+  padding: 10px 45px;
+  background: 0 0;
+  color: #8c5640;
+  border-color: #eee;
+}
+
+
+.button--active {
+  background: #411f19;
+  color: #fff;
+}

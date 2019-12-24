@@ -1,0 +1,135 @@
+.footer-area {
+  background: #291414;
+  padding: 50px 0;
+
+  @media (min-width: 1000px) {
+    padding: 120px 0 120px;
+  }
+
+  @media (max-width: 575px) {
+    padding: 70px 20px;
+  }
+
+  .footer-title {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 28px;
+
+
+    @media (max-width: 991px) {
+      margin-bottom: 15px;
+    }
+
+    @media (min-width: 1199px) {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+
+
+    &.large-title {
+      font-size: 36px;
+      font-weight: 600;
+
+      @media (max-width: 1199px) {
+        font-size: 25px;
+      }
+
+    }
+  }
+
+  .footer-about-card {
+
+    .list li {
+      margin-bottom: 10px;
+
+      @media (max-width: 767px) {
+      margin-bottom: 7px;
+      }
+
+      a {
+        color: #cfa694;
+
+        &:hover {
+          color: #b57153;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    p {
+      color: #7b838a;
+      font-family: 'Nanum Gothic', sans-serif;
+      margin-bottom: 10px;
+
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+
+    .sm-head {
+      color: #fff;
+      margin-bottom: 0;
+
+      span {
+        position: relative;
+        margin-left: -40px;
+        margin-right: 10px;
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        text-align: center;
+        background: #8c56409e;
+        color: #fff;
+        border-radius: 20px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      font-size: 13px;
+    }
+  }
+
+  .footer-gallery {
+    .footer-gallery-list {
+      margin-left: -5px;
+      margin-right: -5px;
+
+      li {
+        margin: 5px;
+
+        img {
+          height: 100%;
+          object-fit: cover;
+          width: 60px;
+        }
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  background: rgb(23, 11, 11);
+  padding: 32px;
+
+  @media (max-width: 767px) {
+    text-align: center;
+    font-size: 12px;
+  }
+
+
+  .footer-text {
+    color: #fff;
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
