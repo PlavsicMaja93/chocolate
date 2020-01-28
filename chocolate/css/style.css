@@ -828,7 +828,14 @@ p {
 }
 .rows.two-cols {
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media (max-width: 991px) {
+  .rows.two-cols {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 @media (max-width: 576px) {
   .rows.two-cols {
@@ -1297,16 +1304,16 @@ p {
 .main-wrapper .hero-section .hero-section-content .button-hero {
   padding: 12px 41px;
   margin-left: 10px;
-  margin-bottom: 10px;
-}
-@media (max-width: 576px) {
-  .main-wrapper .hero-section .hero-section-content .button-hero {
-    margin-bottom: 20px;
-  }
+  margin-top: 10px;
 }
 @media (max-width: 767px) {
   .main-wrapper .hero-section .hero-section-content .button-hero {
-    padding: 8px 25px !important;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 991px) {
+  .main-wrapper .hero-section .hero-section-content .button-hero {
+    padding: 6px 20px !important;
   }
 }
 .main-wrapper .owl-carousel .owl-stage {
@@ -1329,6 +1336,11 @@ p {
   font-size: 20px;
   font-weight: 400;
   color: #fff;
+}
+@media (max-width: 767px) {
+  .main-wrapper .owl-carousel .hero-carousel-slide .hero-carousel-slide-overlay h3 {
+    font-size: 18px;
+  }
 }
 .main-wrapper .owl-carousel .hero-carousel-slide .hero-carousel-slide-overlay p {
   color: #fff;
@@ -1366,6 +1378,7 @@ p {
 .main-wrapper .offer {
   background: right center no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 }
 .main-wrapper .offer .offerBackground {
   background: right center no-repeat;
@@ -1373,7 +1386,12 @@ p {
   height: 100%;
 }
 .main-wrapper .offer .offer-content {
-  padding: 100px 0 110px;
+  padding: 100px 0 100px;
+}
+@media (min-width: 991px) {
+  .main-wrapper .offer .offer-content {
+    padding: 150px 0 150px;
+  }
 }
 .main-wrapper .offer .offer-content h3 {
   font-size: 35px;
@@ -1414,13 +1432,13 @@ p {
   color: #572d1c;
 }
 .card.card-product .card-product-price {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #c75d39;
 }
 @media (max-width: 767px) {
   .card.card-product .card-product-price {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
 .card.card-product:hover .card-product-img-overlay {
